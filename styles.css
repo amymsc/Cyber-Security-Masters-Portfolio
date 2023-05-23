@@ -11,7 +11,10 @@
   background: #00abf0;
   color: #081b29;
 }
-
+html,
+body {
+  height: 100%;
+}
 body {
   color: #ededed;
 }
