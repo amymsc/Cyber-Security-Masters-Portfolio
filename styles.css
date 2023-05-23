@@ -61,7 +61,7 @@ body {
   background-color: black;
   display: flex;
   align-items: center;
-  padding: 0 10%;
+  padding: 0;
 }
 
 .init-content {
@@ -131,7 +131,7 @@ body {
   background-color: black;
   display: flex;
   align-items: center;
-  padding: 0 10%;
+  padding: 0;
 }
 
 .sumpost-content {
