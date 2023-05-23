@@ -54,11 +54,10 @@ body {
 
 .init {
     margin-top: 10px;
-    height: 100vh;
     background-color:black;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 20px 10%;
 }
 .init-content {
     max-width: 600px;
@@ -122,11 +121,10 @@ body {
 }
 
 .sumpost {
-    height: 100vh;
     background-color: black;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 20px 10%;
 }
 .sumpost-content {
     max-width: 600px;
