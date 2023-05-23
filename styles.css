@@ -126,6 +126,7 @@ body {
 }
 
 .sumpost {
+  margin-top: 20px;
   height: 100vh;
   background-color: black;
   display: flex;
