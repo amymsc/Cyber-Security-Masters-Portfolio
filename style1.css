@@ -1064,26 +1064,26 @@ body {
     width: 100%;
 }
 
-.collab {
+.init {
     height: 100vh;
     background-color: black;
     display: flex;
     align-items: center;
     padding: 0 10%;
 }
-.collab-content {
+.init-content {
     max-width: 100%;
     z-index: 101;
 }
 
-.collab-content h1 {
+.init-content h1 {
     position: relative;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.collab-content h1::before {
+.init-content h1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1095,14 +1095,14 @@ body {
     animation-delay: 1s;
 }
 
-.collab-content h3 {
+.init-content h3 {
     position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
 }
 
-.collab h3::before {
+.init h3::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1114,13 +1114,13 @@ body {
     animation-delay: 1.3s;
 }
 
-.collab p {
+.init p {
     position: relative;
     font-size: 16px;
     margin: 20px 0 40px;
 }
 
-.collab p::before {
+.init p::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1131,6 +1131,74 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
 }
+.sumpost {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.sumpost-content {
+    max-width: 600px;
+    z-index: 101;
+}
+
+.sumpost-content h1 {
+    position: relative;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.sumpost-content h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.sumpost-content h3 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.sumpost h3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+
+.sumpost p {
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.sumpost p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.6s;
+}
+
 @keyframes manipActiveHover {
     100% {
         pointer-events: auto;
